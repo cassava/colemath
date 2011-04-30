@@ -3,11 +3,12 @@
 # Maintainer: Ben Morgan <neembi@googlemail.com>
 pkgname=colemak-bm
 pkgver=1.0
-pkgrel=1
+pkgrel=2
 pkgdesc="Colemak keyboard layout (for console)"
 arch=('any')
 url="http://colemak.com"
 license=('GPL')
+conflicts=('colemak')
 source=($pkgname-$pkgver.tar.gz)
 
 package() {
