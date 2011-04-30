@@ -19,11 +19,11 @@ package() {
   
   # Install the Xmodmap scripts
   install -d $pkgdir/usr/share/colemak/
-  install -m644 scripts/* $pkgdir/usr/share/colemak/
+  install -m644 extra/* $pkgdir/usr/share/colemak/
 
   # Install the keyboard layout picture
   cd $srcdir/$pkgname-$pkgver/doc
-  install -m644 layout.png $pkgdir/usr/share/colemak/
+  install -m644 * $pkgdir/usr/share/colemak/
 }
 
 # vim:set ts=2 sw=2 et:

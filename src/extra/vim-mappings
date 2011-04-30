@@ -1,0 +1,23 @@
+" Remap vim so that the navigation keys work as expected.
+noremap l u
+noremap i l
+noremap u i
+noremap j e
+noremap e gk
+noremap k n
+noremap n gj
+
+" Fix some other issues (CAPS)
+noremap <S-u> <S-i>
+
+" Speed up navigation
+noremap <S-h> 6h
+noremap <S-n> 4j
+noremap <S-e> 4k
+noremap <S-i> 6l
+
+noremap! <M-h> <right>
+noremap! <M-n> <down>
+noremap! <M-e> <up>
+noremap! <M-i> <left>
+

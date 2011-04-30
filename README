@@ -1,8 +1,11 @@
-# README FOR COLEMAK-BM
+# README FOR COLEMAK-BM 1.0
 
 This project is a modification (fork) of the colemak keyboard layout.
 
-It features the following differences:
+It features the following modifications and additions:
+
+  * Inclusion of vim mappings, so that the hjkl navigation works.
+    Only the keys that must be changed have been changed.
 
   * Inclusion of some useful math symbols into the colemak layout,
     in the form of an Xmodmap script (as it is intended for X11).
