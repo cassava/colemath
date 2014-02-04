@@ -44,7 +44,7 @@ keycode  35 =              h             H       asciitilde        asciitilde   
 keycode  36 =              n             N           ntilde            Ntilde    Control_n
 keycode  37 =              e             E           eacute            Eacute    Control_e
 keycode  38 =              i             I           iacute            Iacute    Control_i
-keycode  39 =             +o            +O           oacute            Oacute    Control_o
+keycode  39 =              o             O           oacute            Oacute    Control_o
 keycode  40 =     apostrophe      quotedbl           otilde            Otilde
 
 keycode  44 =              z             Z               ae                AE    Control_z

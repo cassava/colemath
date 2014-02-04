@@ -1,4 +1,4 @@
-# README FOR COLEMAK-BM 1.0
+# README FOR COLEMAK-BM 1.2
 
 This project is a modification (fork) of the colemak keyboard layout.
 
@@ -11,8 +11,6 @@ It features the following modifications and additions:
     in the form of an Xmodmap script (as it is intended for X11).
 
   * Change of the CAPSLOCK key from Backspace to an additional ESC
-    (just for the console, as I have no need right now to set it also
-    for X, because Gnome can already do it, hence X11 also).
 
 The Xmodmap scripts are put into /usr/share/colemak along with the
 picture of the colemak keyboard layout. For these to be useful, they

@@ -1,25 +1,23 @@
-# Contributor: Dr.Egg <hondoheal@gmail.com>
-# Contributor: Jonathan Schmidt <j.schmidt@archlinux.us>
 # Maintainer: Ben Morgan <neembi@googlemail.com>
 pkgname=colemak-bm
-pkgver=1.0
-pkgrel=2
-pkgdesc="Colemak keyboard layout (for console)"
+pkgver=1.1
+pkgrel=1
+pkgdesc="Colemak keyboard layout extras"
 arch=('any')
 url="http://colemak.com"
 license=('GPL')
-conflicts=('colemak')
 source=($pkgname-$pkgver.tar.gz)
 
 package() {
   cd $srcdir/$pkgname-$pkgver/src
   
+  install -d $pkgdir/usr/share/colemak/
+
   # Install the keyboard layout
   gzip colemak.map
-  install -Dm644 colemak.map.gz $pkgdir/usr/share/kbd/keymaps/i386/colemak/colemak.map.gz
+  install -Dm644 colemak.map.gz $pkgdir/usr/share/colemak/colemak.map.gz
   
   # Install the Xmodmap scripts
-  install -d $pkgdir/usr/share/colemak/
   install -m644 extra/* $pkgdir/usr/share/colemak/
 
   # Install the keyboard layout picture
@@ -27,4 +25,3 @@ package() {
   install -m644 * $pkgdir/usr/share/colemak/
 }
 
-# vim:set ts=2 sw=2 et:
