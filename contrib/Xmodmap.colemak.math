@@ -1,20 +1,61 @@
-keycode  17 = 8 asterisk 8 asterisk U201A U201E
-keycode  25 = w W w W U2200 U1D542
-keycode  26 = f F e E U22C3 U22C2
-keycode  27 = p P r R U2282 U2286
-keycode  29 = j J y Y U2208 U2209
-keycode  30 = l L u U U211D U211A
-keycode  39 = r R s S dead_grave U22C1
-keycode  40 = s S d D ssharp U22C0
-keycode  42 = d D g G dead_diaeresis U221E
-keycode  43 = h H h H U2102 U2284
-keycode  44 = n N j J U2115 U2124
-keycode  48 = apostrophe quotedbl apostrophe quotedbl U2234 U2235
-keycode  51 = backslash bar backslash bar U2203 U2204
-keycode  53 = x X x X dead_circumflex U22C5
-keycode  56 = b B b B dead_breve U221A
-keycode  57 = k K n N dead_abovering U21D2
-keycode  58 = m M m M dead_macron U21D4
-keycode  59 = comma less comma less dead_cedilla U2192
-keycode  60 = period greater period greater dead_abovedot U21D0
-keycode  61 = slash question slash question questiondown U21A6
+! vim: set ft=xmodmap:
+! Xmodmap.colemak.math
+!
+! Copyright (c) 2014 Ben Morgan
+! Released under the MIT license.
+!
+
+! Number and symbol row
+keycode  49 = grave asciitilde grave asciitilde dead_tilde U00AC
+keycode  10 = 1 exclam 1 exclam 1 U2081 U2115
+keycode  11 = 2 at 2 at U2096 U2124
+keycode  12 = 3 numbersign 3 U2099 U211A
+keycode  13 = 4 dollar 4 dollar U208A U211D
+keycode  14 = 5 percent 5 percent EuroSign U2103
+keycode  15 = 6 asciicircum 6 asciicircum sterling U03C6
+keycode  16 = 7 ampersand 7 ampersand squareroot U03B8
+keycode  17 = 8 asterisk 8 asterisk U2219 U00D7
+keycode  18 = 9 parenleft 9 parenleft U2282 U2286
+keycode  19 = 0 parenright 0 parenright U2283 U2287
+keycode  20 = minus underscore minus underscore endash emdash
+keycode  21 = equal plus equal plus U2254 U2295
+
+! Top row
+keycode  24 = q Q q Q adiaeresis Adiaeresis
+keycode  25 = w W w W U201A U201E
+keycode  26 = f F e E leftsinglequotemark leftdoublequotemark
+keycode  27 = p P r R rightsinglequotemark rightdoublequotemark
+keycode  28 = g G t T dead_macron U03C1
+keycode  29 = j J y Y dead_breve U03B3
+keycode  30 = l L u U dead_doubleacute U03BB
+keycode  31 = u U i I U222A U2228
+keycode  32 = y Y o O udiaeresis Udiaeresis
+keycode  33 = semicolon colon p P odiaeresis Odiaeresis
+keycode  34 = bracketleft braceleft bracketleft braceleft guillemotleft U2039
+keycode  35 = bracketright braceright bracketright braceright guillemotright U203A
+keycode  51 = backslash bar backslash bar U221E U2205
+
+keycode  38 = a A a A U2200 U03B1
+keycode  39 = r R s S U03C3 U03C2
+keycode  40 = s S d D ssharp U2211
+keycode  41 = t T f F dead_grave U03C4
+keycode  42 = d D g G U03B4 U0394
+keycode  43 = h H h H dead_circumflex U03BD
+keycode  44 = n N j J dead_acute U03B7
+keycode  45 = e E k K dead_abovering U03B5
+keycode  46 = i I l L U2229 U2227
+keycode  47 = o O semicolon colon dead_diaeresis elementof
+keycode  48 = apostrophe quotedbl apostrophe quotedbl U2203 U2261
+
+! Bottom row
+keycode  52 = z Z z Z U03C9 U03A9
+keycode  53 = x X x X U03B2 U03C8
+keycode  54 = c C c C U03C0 U220F
+keycode  55 = v V v V U21D0 U2190
+keycode  56 = b B b B U21D4 U2194
+keycode  57 = k K n N U21D2 U2192
+keycode  58 = m M m M U03BC U03BE
+keycode  59 = comma less comma less dead_cedilla U2264
+keycode  60 = period greater period greater dead_abovedot U2265
+keycode  61 = slash question slash question dead U0338
+
