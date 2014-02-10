@@ -1,5 +1,6 @@
-# colemak.kmap for Linux console.
+# colemath.kmap for Linux console.
 # 2006-01-01 Shai Coleman, http://colemak.com/ . Public domain.
+# 2014-02-10 Ben Morgan
 alt_is_meta
 charset "iso-8859-15"
 keymaps 0-12
@@ -13,16 +14,16 @@ keycode   3 =            two            at        masculine       twosuperior   
 keycode   4 =          three    numbersign      ordfeminine     threesuperior    Escape
 keycode   5 =           four        dollar             cent          sterling    Control_backslash
 keycode   6 =           five       percent             euro               yen    Control_bracketright
-keycode   7 =            six   asciicircum       asciitilde        asciitilde 	 Control_asciicircum
+keycode   7 =            six   asciicircum       asciitilde        asciitilde    Control_asciicircum
 keycode   8 =          seven     ampersand              eth               ETH    Control_underscore
 keycode   9 =          eight      asterisk            thorn             THORN    Delete
 keycode  10 =           nine     parenleft       asciitilde        asciitilde
 keycode  11 =           zero    parenright       asciitilde        asciitilde
-keycode  12 =          minus    underscore       asciitilde        asciitilde 	 Control_underscore
+keycode  12 =          minus    underscore       asciitilde        asciitilde    Control_underscore
 keycode  13 =          equal          plus         multiply          division
-                                                                                        
+
 keycode  16 =              q             Q       adiaeresis        Adiaeresis    Control_q
-keycode  17 =              w             W            aring             Aring    Control_w 
+keycode  17 =              w             W            aring             Aring    Control_w
 keycode  18 =              f             F           atilde            Atilde    Control_f
 keycode  19 =              p             P           oslash          Ooblique    Control_p
 keycode  20 =              g             G       asciitilde        asciitilde    Control_g
@@ -57,9 +58,9 @@ keycode  50 =              m             M       asciitilde        asciitilde   
 keycode  51 =          comma          less     dead_cedilla        asciitilde
 keycode  52 =         period       greater       asciitilde        asciitilde
 keycode  53 =          slash      question     questiondown        asciitilde    Delete
-                                                                             
+
 keycode  58 =         Escape        Escape           Escape            Escape
-keycode  86 =          minus    underscore       asciitilde        asciitilde 	 Control_underscore
+keycode  86 =          minus    underscore       asciitilde        asciitilde    Control_underscore
 keycode  57 =          space         space            space      nobreakspace    nul
 
 

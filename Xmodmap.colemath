@@ -7,12 +7,12 @@
 
 ! Number and symbol row
 keycode  49 = grave asciitilde grave asciitilde dead_tilde U00AC
-keycode  10 = 1 exclam 1 exclam 1 U2081 U2115
-keycode  11 = 2 at 2 at U2096 U2124
-keycode  12 = 3 numbersign 3 U2099 U211A
-keycode  13 = 4 dollar 4 dollar U208A U211D
-keycode  14 = 5 percent 5 percent EuroSign U2103
-keycode  15 = 6 asciicircum 6 asciicircum sterling U03C6
+keycode  10 = 1 exclam 1 exclam U2713 U2115
+keycode  11 = 2 at 2 at U2717 U2124
+keycode  12 = 3 numbersign 3 numbersign U2605 U211A
+keycode  13 = 4 dollar 4 dollar sterling sterling U211D
+keycode  14 = 5 percent 5 percent EuroSign U2102
+keycode  15 = 6 asciicircum 6 asciicircum U26A1 U03C6
 keycode  16 = 7 ampersand 7 ampersand squareroot U03B8
 keycode  17 = 8 asterisk 8 asterisk U2219 U00D7
 keycode  18 = 9 parenleft 9 parenleft U2282 U2286
@@ -57,5 +57,5 @@ keycode  57 = k K n N U21D2 U2192
 keycode  58 = m M m M U03BC U03BE
 keycode  59 = comma less comma less dead_cedilla U2264
 keycode  60 = period greater period greater dead_abovedot U2265
-keycode  61 = slash question slash question dead U0338
+keycode  61 = slash question slash question U0338 U2215
 
