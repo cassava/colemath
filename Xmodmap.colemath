@@ -60,3 +60,7 @@ keycode  59 = comma less comma less dead_cedilla U2264
 keycode  60 = period greater period greater dead_abovedot U2265
 keycode  61 = slash question slash question U0338 U2215
 
+! Same as Colemak
+keycode   9 = Escape NoSymbol Escape
+keycode  65 = space space space space space nobreakspace space nobreakspace
+keycode  66 = Escape NoSymbol Escape

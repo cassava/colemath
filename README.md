@@ -1,4 +1,4 @@
-# README FOR COLEMATH 1.2
+# COLEMATH 1.0
 
 This project is a modification (fork) of the excellent
 [Colemak](http://www.colemak.com) keyboard layout.
@@ -14,10 +14,6 @@ It features the following modifications and additions:
   * Inclusion of vim mappings, so that the hjkl navigation works.
     Only the keys that must be changed have been changed.
 
-The Xmodmap scripts are put into /usr/share/colemak along with the
-picture of the colemak keyboard layout. For these to be useful, they
-need to be copied into your home directory.
-
-`Xmodmap.colemak.math` is the modification, and `Xmodmap.colemak.reset` is
-the script to return to the default Colemak configuration.
-
+The Xmodmap scripts are put into /usr/share/colemath along with the
+picture of the colemath keyboard layout. For these to be useful, they
+need to be loaded with Xmodmap in your user session.
